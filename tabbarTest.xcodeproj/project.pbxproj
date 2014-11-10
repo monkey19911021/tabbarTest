@@ -18,6 +18,28 @@
 		0AABD65A1737925F009E541D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AABD6591737925F009E541D /* Default-568h@2x.png */; };
 		0AABD65D1737925F009E541D /* tabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AABD65C1737925F009E541D /* tabbarViewController.m */; };
 		0AABD6601737925F009E541D /* tabbarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AABD65E1737925F009E541D /* tabbarViewController.xib */; };
+		0AABD66817379315009E541D /* MDTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AABD66717379315009E541D /* MDTabBarView.m */; };
+		0AABD6761737949E009E541D /* tabbar_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AABD66A1737949E009E541D /* tabbar_0.png */; };
+		0AABD6771737949E009E541D /* tabbar_0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AABD66B1737949E009E541D /* tabbar_0@2x.png */; };
+		0AABD6781737949E009E541D /* tabbar_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AABD66C1737949E009E541D /* tabbar_1.png */; };
+		0AABD6791737949E009E541D /* tabbar_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AABD66D1737949E009E541D /* tabbar_1@2x.png */; };
+		0AABD67A1737949E009E541D /* tabbar_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AABD66E1737949E009E541D /* tabbar_3.png */; };
+		0AABD67B1737949E009E541D /* tabbar_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AABD66F1737949E009E541D /* tabbar_3@2x.png */; };
+		0AABD67C1737949E009E541D /* tabbar_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AABD6701737949E009E541D /* tabbar_4.png */; };
+		0AABD67D1737949E009E541D /* tabbar_4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AABD6711737949E009E541D /* tabbar_4@2x.png */; };
+		0AABD67E1737949E009E541D /* tabbar_mainbtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AABD6721737949E009E541D /* tabbar_mainbtn.png */; };
+		0AABD67F1737949E009E541D /* tabbar_mainbtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AABD6731737949E009E541D /* tabbar_mainbtn@2x.png */; };
+		0AABD6801737949E009E541D /* tabbar_mainbtn_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AABD6741737949E009E541D /* tabbar_mainbtn_bg.png */; };
+		0AABD6811737949E009E541D /* tabbar_mainbtn_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AABD6751737949E009E541D /* tabbar_mainbtn_bg@2x.png */; };
+		0AABD6851737B034009E541D /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AABD6831737B034009E541D /* FirstViewController.m */; };
+		0AABD6861737B034009E541D /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AABD6841737B034009E541D /* FirstViewController.xib */; };
+		0AABD68A1737B04C009E541D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AABD6881737B04C009E541D /* SecondViewController.m */; };
+		0AABD68B1737B04C009E541D /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AABD6891737B04C009E541D /* SecondViewController.xib */; };
+		6C1E45EC18BF4D5D006E1EA3 /* DRNRealTimeBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1E45E918BF4D5D006E1EA3 /* DRNRealTimeBlurView.m */; };
+		6C1E45ED18BF4D5D006E1EA3 /* UIImage+BoxBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1E45EB18BF4D5D006E1EA3 /* UIImage+BoxBlur.m */; };
+		6C1E45EF18BF4E52006E1EA3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C1E45EE18BF4E52006E1EA3 /* QuartzCore.framework */; };
+		6C1E45F118BF4E69006E1EA3 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C1E45F018BF4E69006E1EA3 /* Accelerate.framework */; };
+		6C86DA4F18C634EB00CD08A6 /* MDTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C86DA4E18C634EB00CD08A6 /* MDTabBarButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +59,34 @@
 		0AABD65B1737925F009E541D /* tabbarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tabbarViewController.h; sourceTree = "<group>"; };
 		0AABD65C1737925F009E541D /* tabbarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tabbarViewController.m; sourceTree = "<group>"; };
 		0AABD65F1737925F009E541D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/tabbarViewController.xib; sourceTree = "<group>"; };
+		0AABD66617379315009E541D /* MDTabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MDTabBarView.h; path = ../MDTabBarView.h; sourceTree = "<group>"; };
+		0AABD66717379315009E541D /* MDTabBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MDTabBarView.m; path = ../MDTabBarView.m; sourceTree = "<group>"; };
+		0AABD66A1737949E009E541D /* tabbar_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_0.png; sourceTree = "<group>"; };
+		0AABD66B1737949E009E541D /* tabbar_0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_0@2x.png"; sourceTree = "<group>"; };
+		0AABD66C1737949E009E541D /* tabbar_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_1.png; sourceTree = "<group>"; };
+		0AABD66D1737949E009E541D /* tabbar_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_1@2x.png"; sourceTree = "<group>"; };
+		0AABD66E1737949E009E541D /* tabbar_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_3.png; sourceTree = "<group>"; };
+		0AABD66F1737949E009E541D /* tabbar_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_3@2x.png"; sourceTree = "<group>"; };
+		0AABD6701737949E009E541D /* tabbar_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_4.png; sourceTree = "<group>"; };
+		0AABD6711737949E009E541D /* tabbar_4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_4@2x.png"; sourceTree = "<group>"; };
+		0AABD6721737949E009E541D /* tabbar_mainbtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_mainbtn.png; sourceTree = "<group>"; };
+		0AABD6731737949E009E541D /* tabbar_mainbtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_mainbtn@2x.png"; sourceTree = "<group>"; };
+		0AABD6741737949E009E541D /* tabbar_mainbtn_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_mainbtn_bg.png; sourceTree = "<group>"; };
+		0AABD6751737949E009E541D /* tabbar_mainbtn_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_mainbtn_bg@2x.png"; sourceTree = "<group>"; };
+		0AABD6821737B034009E541D /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		0AABD6831737B034009E541D /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		0AABD6841737B034009E541D /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		0AABD6871737B04C009E541D /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		0AABD6881737B04C009E541D /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		0AABD6891737B04C009E541D /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		6C1E45E818BF4D5D006E1EA3 /* DRNRealTimeBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRNRealTimeBlurView.h; sourceTree = "<group>"; };
+		6C1E45E918BF4D5D006E1EA3 /* DRNRealTimeBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRNRealTimeBlurView.m; sourceTree = "<group>"; };
+		6C1E45EA18BF4D5D006E1EA3 /* UIImage+BoxBlur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BoxBlur.h"; sourceTree = "<group>"; };
+		6C1E45EB18BF4D5D006E1EA3 /* UIImage+BoxBlur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BoxBlur.m"; sourceTree = "<group>"; };
+		6C1E45EE18BF4E52006E1EA3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6C1E45F018BF4E69006E1EA3 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		6C86DA4D18C634EB00CD08A6 /* MDTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MDTabBarButton.h; path = ../MDTabBarButton.h; sourceTree = "<group>"; };
+		6C86DA4E18C634EB00CD08A6 /* MDTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MDTabBarButton.m; path = ../MDTabBarButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +94,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C1E45F118BF4E69006E1EA3 /* Accelerate.framework in Frameworks */,
+				6C1E45EF18BF4E52006E1EA3 /* QuartzCore.framework in Frameworks */,
 				0AABD6441737925F009E541D /* UIKit.framework in Frameworks */,
 				0AABD6461737925F009E541D /* Foundation.framework in Frameworks */,
 				0AABD6481737925F009E541D /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +125,8 @@
 		0AABD6421737925F009E541D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6C1E45F018BF4E69006E1EA3 /* Accelerate.framework */,
+				6C1E45EE18BF4E52006E1EA3 /* QuartzCore.framework */,
 				0AABD6431737925F009E541D /* UIKit.framework */,
 				0AABD6451737925F009E541D /* Foundation.framework */,
 				0AABD6471737925F009E541D /* CoreGraphics.framework */,
@@ -83,12 +137,20 @@
 		0AABD6491737925F009E541D /* tabbarTest */ = {
 			isa = PBXGroup;
 			children = (
+				6C7775DC18CF7075004DAACA /* MDTabBar */,
+				0AABD6691737949E009E541D /* Image */,
 				0AABD6521737925F009E541D /* tabbarAppDelegate.h */,
 				0AABD6531737925F009E541D /* tabbarAppDelegate.m */,
 				0AABD65B1737925F009E541D /* tabbarViewController.h */,
 				0AABD65C1737925F009E541D /* tabbarViewController.m */,
 				0AABD65E1737925F009E541D /* tabbarViewController.xib */,
 				0AABD64A1737925F009E541D /* Supporting Files */,
+				0AABD6821737B034009E541D /* FirstViewController.h */,
+				0AABD6831737B034009E541D /* FirstViewController.m */,
+				0AABD6841737B034009E541D /* FirstViewController.xib */,
+				0AABD6871737B04C009E541D /* SecondViewController.h */,
+				0AABD6881737B04C009E541D /* SecondViewController.m */,
+				0AABD6891737B04C009E541D /* SecondViewController.xib */,
 			);
 			path = tabbarTest;
 			sourceTree = "<group>";
@@ -105,6 +167,49 @@
 				0AABD6591737925F009E541D /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0AABD6691737949E009E541D /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				0AABD66A1737949E009E541D /* tabbar_0.png */,
+				0AABD66B1737949E009E541D /* tabbar_0@2x.png */,
+				0AABD66C1737949E009E541D /* tabbar_1.png */,
+				0AABD66D1737949E009E541D /* tabbar_1@2x.png */,
+				0AABD66E1737949E009E541D /* tabbar_3.png */,
+				0AABD66F1737949E009E541D /* tabbar_3@2x.png */,
+				0AABD6701737949E009E541D /* tabbar_4.png */,
+				0AABD6711737949E009E541D /* tabbar_4@2x.png */,
+				0AABD6721737949E009E541D /* tabbar_mainbtn.png */,
+				0AABD6731737949E009E541D /* tabbar_mainbtn@2x.png */,
+				0AABD6741737949E009E541D /* tabbar_mainbtn_bg.png */,
+				0AABD6751737949E009E541D /* tabbar_mainbtn_bg@2x.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		6C1E45E718BF4D5D006E1EA3 /* realtimeblur */ = {
+			isa = PBXGroup;
+			children = (
+				6C1E45E818BF4D5D006E1EA3 /* DRNRealTimeBlurView.h */,
+				6C1E45E918BF4D5D006E1EA3 /* DRNRealTimeBlurView.m */,
+				6C1E45EA18BF4D5D006E1EA3 /* UIImage+BoxBlur.h */,
+				6C1E45EB18BF4D5D006E1EA3 /* UIImage+BoxBlur.m */,
+			);
+			name = realtimeblur;
+			sourceTree = "<group>";
+		};
+		6C7775DC18CF7075004DAACA /* MDTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				6C1E45E718BF4D5D006E1EA3 /* realtimeblur */,
+				0AABD66617379315009E541D /* MDTabBarView.h */,
+				0AABD66717379315009E541D /* MDTabBarView.m */,
+				6C86DA4D18C634EB00CD08A6 /* MDTabBarButton.h */,
+				6C86DA4E18C634EB00CD08A6 /* MDTabBarButton.m */,
+			);
+			name = MDTabBar;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +269,20 @@
 				0AABD6581737925F009E541D /* Default@2x.png in Resources */,
 				0AABD65A1737925F009E541D /* Default-568h@2x.png in Resources */,
 				0AABD6601737925F009E541D /* tabbarViewController.xib in Resources */,
+				0AABD6761737949E009E541D /* tabbar_0.png in Resources */,
+				0AABD6771737949E009E541D /* tabbar_0@2x.png in Resources */,
+				0AABD6781737949E009E541D /* tabbar_1.png in Resources */,
+				0AABD6791737949E009E541D /* tabbar_1@2x.png in Resources */,
+				0AABD67A1737949E009E541D /* tabbar_3.png in Resources */,
+				0AABD67B1737949E009E541D /* tabbar_3@2x.png in Resources */,
+				0AABD67C1737949E009E541D /* tabbar_4.png in Resources */,
+				0AABD67D1737949E009E541D /* tabbar_4@2x.png in Resources */,
+				0AABD67E1737949E009E541D /* tabbar_mainbtn.png in Resources */,
+				0AABD67F1737949E009E541D /* tabbar_mainbtn@2x.png in Resources */,
+				0AABD6801737949E009E541D /* tabbar_mainbtn_bg.png in Resources */,
+				0AABD6811737949E009E541D /* tabbar_mainbtn_bg@2x.png in Resources */,
+				0AABD6861737B034009E541D /* FirstViewController.xib in Resources */,
+				0AABD68B1737B04C009E541D /* SecondViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +296,12 @@
 				0AABD6501737925F009E541D /* main.m in Sources */,
 				0AABD6541737925F009E541D /* tabbarAppDelegate.m in Sources */,
 				0AABD65D1737925F009E541D /* tabbarViewController.m in Sources */,
+				6C1E45EC18BF4D5D006E1EA3 /* DRNRealTimeBlurView.m in Sources */,
+				0AABD66817379315009E541D /* MDTabBarView.m in Sources */,
+				6C86DA4F18C634EB00CD08A6 /* MDTabBarButton.m in Sources */,
+				0AABD6851737B034009E541D /* FirstViewController.m in Sources */,
+				6C1E45ED18BF4D5D006E1EA3 /* UIImage+BoxBlur.m in Sources */,
+				0AABD68A1737B04C009E541D /* SecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +424,7 @@
 				0AABD6651737925F009E541D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
