@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>versionName</key>
+		<string>ShunDe</string>
+		<key>appName</key>
+		<string>顺德移动网上办事大厅</string>
+		<key>local</key>
+		<string>顺德</string>
+	</dict>
+	<dict>
+		<key>versionName</key>
+		<string>ShengTing</string>
+		<key>appName</key>
+		<string>广东省移动网上办事大厅</string>
+		<key>local</key>
+		<string>省厅</string>
+	</dict>
+	<dict>
+		<key>versionName</key>
+		<string>LiuZhou</string>
+		<key>appName</key>
+		<string>柳州移动网上办事大厅</string>
+		<key>local</key>
+		<string>柳州</string>
+	</dict>
+	<dict>
+		<key>versionName</key>
+		<string>PanYu</string>
+		<key>appName</key>
+		<string>番禺移动网上办事大厅</string>
+		<key>local</key>
+		<string>番禺</string>
+	</dict>
+</array>
+</plist>

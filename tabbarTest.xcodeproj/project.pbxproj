@@ -39,6 +39,7 @@
 		6C1E45ED18BF4D5D006E1EA3 /* UIImage+BoxBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1E45EB18BF4D5D006E1EA3 /* UIImage+BoxBlur.m */; };
 		6C1E45EF18BF4E52006E1EA3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C1E45EE18BF4E52006E1EA3 /* QuartzCore.framework */; };
 		6C1E45F118BF4E69006E1EA3 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C1E45F018BF4E69006E1EA3 /* Accelerate.framework */; };
+		6C2575F41A13769C0048E1D8 /* LocalInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6C2575F31A13769C0048E1D8 /* LocalInfo.plist */; };
 		6C86DA4F18C634EB00CD08A6 /* MDTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C86DA4E18C634EB00CD08A6 /* MDTabBarButton.m */; };
 /* End PBXBuildFile section */
 
@@ -85,6 +86,7 @@
 		6C1E45EB18BF4D5D006E1EA3 /* UIImage+BoxBlur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BoxBlur.m"; sourceTree = "<group>"; };
 		6C1E45EE18BF4E52006E1EA3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		6C1E45F018BF4E69006E1EA3 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		6C2575F31A13769C0048E1D8 /* LocalInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LocalInfo.plist; sourceTree = "<group>"; };
 		6C86DA4D18C634EB00CD08A6 /* MDTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MDTabBarButton.h; path = ../MDTabBarButton.h; sourceTree = "<group>"; };
 		6C86DA4E18C634EB00CD08A6 /* MDTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MDTabBarButton.m; path = ../MDTabBarButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -137,6 +139,7 @@
 		0AABD6491737925F009E541D /* tabbarTest */ = {
 			isa = PBXGroup;
 			children = (
+				6C2575F31A13769C0048E1D8 /* LocalInfo.plist */,
 				6C7775DC18CF7075004DAACA /* MDTabBar */,
 				0AABD6691737949E009E541D /* Image */,
 				0AABD6521737925F009E541D /* tabbarAppDelegate.h */,
@@ -268,6 +271,7 @@
 				0AABD6561737925F009E541D /* Default.png in Resources */,
 				0AABD6581737925F009E541D /* Default@2x.png in Resources */,
 				0AABD65A1737925F009E541D /* Default-568h@2x.png in Resources */,
+				6C2575F41A13769C0048E1D8 /* LocalInfo.plist in Resources */,
 				0AABD6601737925F009E541D /* tabbarViewController.xib in Resources */,
 				0AABD6761737949E009E541D /* tabbar_0.png in Resources */,
 				0AABD6771737949E009E541D /* tabbar_0@2x.png in Resources */,
@@ -389,7 +393,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "tabbarTest/tabbarTest-Prefix.pch";
 				INFOPLIST_FILE = "tabbarTest/tabbarTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -400,7 +406,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "tabbarTest/tabbarTest-Prefix.pch";
 				INFOPLIST_FILE = "tabbarTest/tabbarTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
